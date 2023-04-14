@@ -166,7 +166,7 @@ passed to a state.
 8. Text Size
    ```kotlin
    // We're deleting all of the text size styles from the selection to avoid multiple multiplications of the size
-   value = value.clearStyles(Style.TextColor())
+   value = value.clearStyles(Style.TextSize())
 
    // Inserting style
    // You have to pass size as a parameter. It accepts values between 0.5f and 2.0f
